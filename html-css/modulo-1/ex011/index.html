@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Midias em HTML 5</title>
+
+    
+</head>
+<body>
+
+    <H1>Imagem dinâmica</H1>
+    <p>Tente abrir esse site em vários dispositivos diferentes ou simplesmente aumente e diminua o tamanho do seu navegador</p>
+
+<picture>
+    <source media="(max-width: 760px)" srcset="imagens/paisagem370.jpg" type="image/jpg">
+    <source media="(max-width:1020px )" srcset="imagens/paisagem768.jpg" type="image/jpg">
+   
+    
+    <img src="imagens/paisagemfull.jpg" alt="paisagem com um barco no rio e montanhas ao fundo" title="Pescadores no Rio Marajó">
+    <legend><em><small>Pescadores no Rio Marajó</small></em></legend>
+</picture>
+
+<h2>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vel, magni.</h2>
+<p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Provident esse asperiores dolorum, impedit perferendis a nobis enim porro ut tenetur debitis libero magni! Assumenda, modi molestias veniam expedita praesentium quis.</p>
+
+<h1>Reproduzindo audios</h1>
+<p>Vamos aprender a reproduzir audios em HTML 5</p>
+
+<audio controls preload="metadata" loop>
+    <source src="media/Luz Solart - Luna Cantina.mp3" type="audio/mpeg">
+    <source src="media/Luz Solart - Luna Cantina.mp3" type="audio/ogg">
+    <source src="media/Luz Solart - Luna Cantina.mp3" type="audio/wav">
+    <p>Infelizmente seu navegador não consegue reproduzir audio</p>
+    <a href="media/Luz Solart - Luna Cantina.mp3">Clique aqui para baixar o audio</a>
+    
+</audio>
+
+<!--
+<audio src="media/Luz Solart - Luna Cantina.mp3" autoplay controls></audio> -->
+
+<!-- MP3 WAV OGG-->
+
+
+
+   
+</body>
+</html>

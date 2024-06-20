@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Gradiente em CSS</title>
+
+    <style>
+      body {
+        background-image: linear-gradient(
+          to right,
+          #4464c9,
+          #ac37a9,
+          #da3f83,
+          #fd573d,
+          #fdbf50
+        );
+        background-attachment: fixed;
+      }
+
+      h1 {
+        color: #1e2e5f;
+        text-shadow: 1px 1px 3px #101831;
+      }
+      h2 {
+        color: #49152c;
+        text-decoration: underline;
+      }
+
+      p {
+        text-align: justify;
+        text-indent: 20px;
+        padding: 10px;
+      }
+
+      main {
+        margin: 20px auto;
+        width: 400px;
+        text-align: center;
+        border: 1px solid black;
+        padding: 10px;
+        border-radius: 15px;
+        box-shadow: 2px 2px 10px #3b112391;
+      }
+
+      img {
+        border-radius: 25%;
+        width: 50px;
+        justify-content: center;
+        margin: 10px;
+       
+        
+      }
+
+      img:hover{
+        box-shadow: 0px 0px 5px rgba(255, 255, 255, 0.493) ;
+        
+        
+      }
+
+      .video{
+        width: 400px;
+        height: 225px;
+        
+        
+        border-radius: 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <h1>Título do meu texto</h1>
+      <h2>subtilulo 1</h2>
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit
+        delectus sed, architecto perspiciatis incidunt, in sapiente vero sit,
+        distinctio blanditiis expedita nesciunt! Aliquam dignissimos nobis amet
+        architecto ex id voluptates?
+      </p>
+
+      <div class="video-container">
+        <iframe class="video" src="https://www.youtube.com/embed/llbanmpV41A?si=SdTn_oEMxOxMoATH" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+      </div>
+
+
+
+
+
+
+      <a href="#"><img src="th.jpg" alt="Logo do instagram" /></a>
+    </main>
+  </body>
+</html>

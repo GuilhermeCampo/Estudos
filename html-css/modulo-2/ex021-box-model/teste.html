@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+
+      /* 
+      shorthands:
+      
+      border -- size, style, color
+      padding -- top, right, bottom, left (2 valores = top, bottom)
+      margin -- top, right, bottom, left (2 valores = top, bottom)
+      outline -- size, style, color
+      
+      */
+      .container {
+        width: 80%px;
+        height: 200px;
+        border: 1px solid;
+        background-color: darkred;
+        display: flex;
+        justify-content: space-around;
+        padding: 10px;
+      }
+      .foto {
+        width: 200px;
+        height: 200px;
+        background-color: lightcoral;
+        font-family: sans-serif;
+        margin: 1px solid white;
+        border-radius: 5px;
+       
+        
+       
+      }
+
+      .conteudo{
+      
+        width:80%;
+        height: 80%;
+        margin: 5px auto;
+        
+        text-align: center;
+        font-size: 0.5em;
+        
+        
+        
+        display: none;
+    }
+
+    .foto:hover > .conteudo {
+        display: block;
+    }
+    a{
+       
+        text-decoration: none;
+        color: white;
+    }
+    a:hover{
+        color: rgb(183, 190, 196);
+    }
+
+   
+
+     
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="foto">
+        <div class="conteudo">
+          <a href="">
+              <h1>O carro dos sonhos</h1>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque,
+                quam!
+              </p>
+          </a>
+        </div>
+      </div>
+      <div class="foto">
+        <div class="conteudo">
+          <a href="">
+              <h1>O carro dos sonhos</h1>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque,
+                quam!
+              </p>
+          </a>
+        </div>
+      </div>
+      <div class="foto">
+        <div class="conteudo">
+          <a href="">
+              <h1>O carro dos sonhos</h1>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque,
+                quam!
+              </p>
+          </a>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

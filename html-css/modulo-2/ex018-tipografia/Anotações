@@ -1,0 +1,43 @@
+ Tipografia vem do grego Graphía(letra) + týpos (impressa), surgiu quando as grandes prensas físicas eram usadas para carimbar o papel, letra por letra, na produção de livros/jornais.
+
+ Johannes Gutenberg, inventor alemão, conhecido como aquele que deu inicio à revolução da imprensa, foi criador da prensa mecânica para tipos móveis, mas foram os chineses que criaram o conceito de prensa de tipos móveis.
+
+---- GLIFOS -------
+São os signos alfabéticos projetados para a reprodução mecãnica
+
+
+---- FAMÍLIA TIPOGRÁFICA -------
+
+É o conjunto de glifos que possuem as mesmas características anatômicas, independentemente das suas variações. Ex: configurações de peso
+
+
+---- FONTES -------
+
+As fontes são conjuntos de glifos que formam uma família tipográfica. O termo fonte também é aplicável ao arquivo digital que armazena todos os formatos de glifos que compôem uma determinada família tipográfica.
+
+
+LEGIBILIDADE:  conseguir ler facilmente a palavra, isolada ou não 
+
+LEITURABILIDADE: fluidez com que se consegue ter na leitura 
+
+uma fonte ter boa legibilidade, não quer dizer que ela terá boa leiturabilidade, é importante se atentar na fonte ao escolher para textos maiores. 
+
+escolher no máximo dois ou três tipos para um site já está ótimo 
+
+
+
+Fontes com serifa (serif)- fontes que apresentam leves ornamentos, que causam um efeito visual de ligar as letras uma a outra. Geralmente usada em títulos, e evitada quando se trata de conteúdo extenso, trocada ´por alguma fonte um pouco mais leve.
+
+Fontes não serifadas (sans-serif) - muito usadas, principalmente na web, por se tratar de fontes simples, mais limpas visualmente.
+
+Fontes monoespaçadas - Todas as letras ocupam o mesmo espaço, são ótimas para algum texto que deve ser repsoduzido, como codigos, por exemplo. também conhecida como fonte de console ou fonte de terminal
+
+Fontes Script - Também conhecidas como handriting, são fontes que tentam imitar a escrita à mão. Não devem ser usadas em textos longos, pois causam cansaço visual.
+
+Fontes display - São fontes que não se enquadram em nenhuma categoria citada, geralmente são muito enfeitadas, até mesmo bizarras. Em alguns casos podem não representar letras, mas sim símbolos.
+
+shorthand para font
+
+font:font-stle, font-variant, font-weight, font-size/line-height, font-family;
+
+ex: font: italic bold 1.5em arial, helvetica, sans-serif;

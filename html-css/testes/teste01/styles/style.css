@@ -1,0 +1,79 @@
+@charset "utf-8";
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+html,
+body {
+  background-color: darkgray;
+}
+
+header {
+  background-color: rgb(32, 32, 32);
+  color: white;
+  text-align: center;
+}
+
+header h1 {
+  padding-top: 20px;
+  font-size: 8vw;
+}
+
+header p {
+  padding-bottom: 20px;
+}
+
+main {
+  padding: 20px;
+  max-width: 1000px;
+  margin: auto;
+}
+
+section {
+  padding: 24px;
+  height: 40vw;
+}
+
+section p {
+  font-size: 3vw;
+  display: inline-block;
+  width: 30vw;
+  line-height: 1.2em;
+  text-align: justify;
+  text-indent: 35px;
+}
+
+
+
+.normal {
+  background-color: white;
+}
+
+.image {
+  background-color: black;
+  color: white;
+  box-shadow: inset 5px 5px 8px rgba(0, 0, 0, 0.534);
+}
+
+.image p {
+  padding: 8px;
+  background-color: rgba(0, 0, 0, 0.301);
+}
+
+#img01 {
+  text-align: right;
+  background: url(../imagens/fundo002.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: bottom;
+}
+
+#img02 {
+  background: url(../imagens/fundo001.jpg);
+  background-position:  center ;
+  background-size: cover;
+ 
+  background-attachment: fixed;
+}

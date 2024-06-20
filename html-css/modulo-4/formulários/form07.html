@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+</head>
+<body>
+
+    <h1>Teste de formulário</h1>
+<form action="" method="post" autocomplete="on">
+    
+        <p>
+            <label for="iestado">Estado</label>
+            <select name="estado" id="iestado">
+    
+                <option value="" selected>--- Escolha ---</option>
+    
+                <optgroup label="Região 1">
+                    <option value="RJ">Rio de Janeiro</option>
+                    <option value="SP">São Paulo</option>
+                    <option value="MG">Minas Gerais</option>
+                </optgroup>
+    
+    
+                <optgroup label="Região 2">
+                    <option value="ES">Espírito Santo</option>
+                    <option value="RN"> Rio Grande do Norte</option>
+                    <option value="RN"> Rio Grande do Norte</option>
+                </optgroup>
+            </select>
+        </p>
+    
+        <p>
+            <label for="iprofi">Profissao</label>
+                <input type="text" name="profi" id="iprofi" list="lstprofi">
+                <datalist id="lstprofi">
+                    <option >Marceneiro</option>
+                    <option >pedreiro</option>
+                    <option >Arquiteto</option>
+                    <option >Marinheiro</option>
+                    <option >Gerente</option>
+                </datalist>
+    
+    
+    
+        </p>
+
+        <p>
+            <label for="msg">Digite sua mensagem</label><br>
+            <textarea name="msg" id="msg" cols="30" rows="10" placeholder="Sua mensagem aqui "></textarea>
+        </p>
+    
+    
+    
+    
+        <p>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Apagar">
+        </p>
+</form>
+    
+</body>
+</html>
