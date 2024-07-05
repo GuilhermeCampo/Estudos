@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=
+    , initial-scale=1.0">
+    <title>Operadores</title>
+</head>
+<body>
+
+    <script>
+
+        var a = 5+3;
+        var b = a%5;
+
+
+    </script>
+    
+</body>
+</html>
+
+
+
+<!-- ANOTAÇÕES -->
+ <!--   TIPOS DE OPERADORES
+  OPERADORES:
+   aritmeticos;
+   atribuição;
+   relacionais;
+   lógicos;
+   ternário;
+
+   existem outros tipos no javascript, porém no curso o foco vai ser nesses.
+
+-->
+
+<!-- OPERADORES ARITMETICOS:
+
+
+    + , - , * , / , % , **.
+
+    são operadores binários, precisam de dois valores.
+
+      -- % resto da divisão inteira. Ex 5%2=1, sendo 5/2. 2x2=4, vai sobrar 1, antes de precisarmos colocar virgula.
+
+        -- ** potência 5**2== 5 ao quadrado.
+-->
+
+<!-- AUTO REFERÊNCIA / INCREMENTO / DECREMENTO
+
+        
+
+        var n = 3
+
+        n = n + 2 ->  n += 2
+        n = n - 2 -> n -= 2 
+        n = n * 2 -> n *= 2
+        n = n / 2 -> n /= 2
+        n = n % 2 -> n %= 2
+        n = n ** 2 -> n **= 2
+
+        OPERADOR DE INCREMENTO
+
+        X = X + 1 -> X++ OU ++X
+
+        DECREMENTO 
+
+        X = X - 1 -> X-- OU --x
+
+-->
+
+<!-- OPERADORES RELACIONAIS:
+
+
+         
+        <  menor
+        > maior
+        >= maior que
+        <= menor que
+        == igualdade
+        != diferença
+
+        expressões com operadores relacionais retornam valores booleanos (TRUE ou FALSE)
+
+         IDENTIDADE:
+
+            ===  igualdade restrita
+
+            !== desigualdade restrita
+          
+          5 == 5  true
+          5 == '5' true
+
+          5 === 5 true 
+          5 === '5' false
+-->
+
+<!-- OPERADORES LÓGICOS são resolvidos nessa ordem
+    ! NOT, negação
+    && AND, conjunção
+    || OR, disjunção
+-->
+
+<!--OPERADOR TERNÁRIO
+  
+'TESTE' ? 'TRUE' : 'FALSE' 
+
+EX:  'MEDIA >= 7' ? 'APROVADO' : 'REPROVADO'
+
+ELE FAZ UMA COMPARAÇÃO COM O 'TESTE', O ? EXECUTA A AÇÃO CASO O TESTE LOGICO SEJA TRUE, E O : CASO SEJA FALSE
+    
+
+-->
+
+        <!-- ORDEM DE PRECEDÊNCIA:
+
+         
+       1° ARITMETICOS: (), **, * / %, + -,
+       2° RELACIONAIS (sem ordem entre eles): <, >, >=, <=, ==, !=
+       3° LÓGICOS : !, &&, ||
+
+-->
