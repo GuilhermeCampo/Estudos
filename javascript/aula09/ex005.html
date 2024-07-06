@@ -5,44 +5,52 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>DOM</title>
 
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+
     <style>
         body{
-            background-color: rgb(55, 54, 99);
-            color: white;
+            
+           background: black;
+           color:white;
             font: normal 18px arial;
 
         }
     </style>
 </head>
-<body>
+<body id="body">
 
-    <h1>Iniciando estudos com DOM</h1>
+<header>
+    <h1>titulo do meu site</h1>
+    <p>descrição</p>
+</header>
+
+<main>
+    <h1>conteudo principal</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit nihil vero ipsam, porro itaque saepe perferendis ipsum placeat in sapiente dignissimos est, eaque iure dolorum, cumque ad laborum eligendi id?</p>
+
+    <button onclick="bgDark()">
+       Modo Claro
+    </button>
+
     
-    <p>Aqui vai o resultado</p>
-
-    <p>Aprendendo a usar o <strong>DOM</strong> em JavaScript</p>
-
-    <div id="msg" >Clique em mim</div>
-
-    <script>
-        var corpo = window.document.body
-        var p1 = window.document.getElementsByTagName('p')[1]
-        p1.style.color='blue'
-        corpo.style.background='black'
-
-        window.document.write(p1.innerHTML)
-
-        // var d = window.document.getElementById('msg')
-
-        // d.style.background='green'
-        // // d.innerText= 'Estou aguardando'
-        // document.getElementById('msg').innerText='olá'
-
-        var d = document.getElementsByName('msg')[0].innerText=('alou')
-
+</main>
+  
+<script>
+    function bgDark (){if (body.style.background == 'white'){
+        body.style.background='black'
+        body.style.color='white'
+        document.querySelector('main>button').innerHTML='Modo Claro'
 
         
-    </script>
+    } else {
+        body.style.background='white'
+        body.style.color='black'
+        document.querySelector('main>button').innerHTML='Modo escuro'
+    }
+    }
+  
+   
     
+</script>
 </body>
 </html>
