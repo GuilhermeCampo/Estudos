@@ -4,12 +4,52 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Eventos DOM</title>
+
+    <style>
+        div#area{
+            font:normal 20px arial;
+            background:rgb(27, 145, 27);
+            color: white;
+            width: 200px;
+            height: 200px;
+            line-height: 200px;
+            text-align: center;
+        }
+
+
+    </style>
 </head>
 <body>
-    
-    <div>
+    <!-- CONFERIR REFERÊNCIAS NO MDN 'DOM EVENTS' -->
+
+    <!-- EVENTOS PARA MOUSE -->
+    <!-- MOUSEENTER: quando o ponteiro do mouse entra no objeto
+         MOUSEMOVE: enquanto o ponteiro do mouse estiver se movendo
+         MOUSEDOWN: quando clicado e segurado
+         MOUSEUP: quando soltado
+         CLICK: clique normal
+         MOUSEOUT: o ponteiro do mouse sai do objeto
+    -->
+
+    <div id="area" onclick="clicar()" onmouseenter="enter()" onmouseout="saiu()">
+        interaja...
 
     </div>
-    
+    <script>
+        var a = window.document.getElementById('area')
+
+        function clicar(){
+         
+         a.innerHTML="olá"
+        }
+
+        function enter(){
+           a.innerHTML='entrou'
+        }
+
+        function saiu(){
+            a.innerHTML='saiu'
+        }
+    </script>
 </body>
 </html>
