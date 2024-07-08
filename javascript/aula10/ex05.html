@@ -16,6 +16,17 @@
             text-align: center;
         }
 
+        #teste{
+            width: 200px;
+            height: 200px;
+            background-color: darkgray;
+            margin-top: 10px;
+            line-height: 200px;
+            text-align: center;
+            font-size: 1.5em;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
 
     </style>
 </head>
@@ -31,25 +42,45 @@
          MOUSEOUT: o ponteiro do mouse sai do objeto
     -->
 
-    <div id="area" onclick="clicar()" onmouseenter="enter()" onmouseout="saiu()">
-        interaja...
-
+    <div id="teste"  >
+        Quadradin
     </div>
+
+
     <script>
-        var a = window.document.getElementById('area')
+        
 
-        function clicar(){
-         
-         a.innerHTML="olá"
+        var b = window.document.getElementById('teste')
+
+        b.addEventListener('click', clique)
+        b.addEventListener('mouseenter', enter)
+        b.addEventListener('mouseout', out)
+
+        
+
+      
+        
+        function clique(){
+            b.innerHTML='Clicou!'
+            b.style.background='blue'
         }
-
         function enter(){
-           a.innerHTML='entrou'
+            b.innerHTML='Entrou!'
+            b.style.background='red'
         }
 
-        function saiu(){
-            a.innerHTML='saiu'
+        function out(){
+            b.innerHTML='Saiu!'
+            b.style.background='darkgray'
         }
+
+        function movim(){
+            b.innerHTML='Movendo..'
+        }
+
+        
+
+       
     </script>
 </body>
 </html>
