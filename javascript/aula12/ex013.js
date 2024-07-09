@@ -19,7 +19,7 @@ switch (diaSem){
         console.log('Domingo')
         break
     case 1:
-        console.log('Segunda-Feira')    
+        console.log('Segunda-Feira')
         break
     case 2:
         console.log('Terça-Feira')
