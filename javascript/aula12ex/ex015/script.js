@@ -3,7 +3,8 @@
 
  function verificar(){
     var anoNascimento = document.querySelector('input#ano')
-    var anoAtual = 2024
+    var data = new Date()
+    var anoAtual = data.getFullYear()
     var ano = Number(anoNascimento.value)
     var idade = (anoAtual-ano)
 
