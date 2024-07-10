@@ -15,16 +15,25 @@
     <section>
         <div>
             <form action="">
-                <label for="ano">ano de nascimento</label>
-                <input type="number" name="ano" id="ano">
+                <label for="ano">Ano de nascimento:</label>
+                <input type="number" name="ano" id="ano" placeholder="Ex: 1997"><br>
 
-                <label for="sexo">Sexo</label>
-                <input type="radio" name="sexo" id="sexo">
+                <label>Sexo:</label>
+
+                <input type="radio" name="sexo" id="sexom" value="m" class="sexo" checked>
+                <label for="sexom">Masculino</label>
+                <input type="radio" name="sexo" id="sexof" value="f" class="sexo"> 
+                <label for="sexof">Feminino</label>
+
+                <br>
+
                 <input type="button" value="Verificar" onclick="verificar()">
             </form>
         </div>
-        <div>
-            <img src="" alt="">
+        <div id="foto-container">
+            <p id="res"></p>
+        
+            <img src="imagens/adulta.png" alt="" id="foto">
 
         </div>
 
