@@ -5,7 +5,7 @@ var msg = document.querySelector('div#msg')
 var img = document.querySelector('img#img')
 
 var data = new Date()
-var hora = 19//data.getHours()
+var hora = data.getHours()
 msg.innerHTML=`Agora são ${hora} horas`
 
 if (hora >= 0 && hora < 12){
