@@ -1,0 +1,62 @@
+@charset "UTF-8";
+
+*{
+    margin: 0;
+    padding: 0;
+    font-size: 1em;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(42, 42, 116);
+}
+
+main{
+    width: 400px;
+    margin: 50px auto;
+    background-color: white;
+    padding: 10px;
+    border-radius: 10px;
+
+}
+h1{
+    font-size: 2em;
+    margin-bottom:20px;
+    text-align: center;
+}
+
+section{
+    margin-bottom: 20px;
+}
+
+input[type=number]{
+
+}
+
+input[type=submit]{
+    padding: 4px;
+    margin-top:5px;
+    
+}
+
+#tab{
+    display: flex;
+    flex-flow: row wrap;
+    
+    gap: 20px;
+    
+}
+
+select{
+    border-style: none;
+    scrollbar-width: none;
+    background-color: rgba(173, 216, 230, 0.411);
+    padding: 5px;
+    border-radius: 10px;
+    margin: auto;
+    display: none;
+}
+
+
+
